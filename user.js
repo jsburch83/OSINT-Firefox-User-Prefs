@@ -24,4 +24,15 @@ user_pref("privacy.history.custom", true);
 user_pref("places.history.enabled", false);
 //under History - Remember search and form history
 user_pref("browser.formfill.enable", false);
-
+//under History - Clear history when firefox closes
+user_pref("privacy.sanitize.sanitizeOnShutdown", true);
+//Address Bar - Uncheck Browsing History
+user_pref("browser.urlbar.suggest.history", false);
+//Permissions - block new request - location
+user_pref("permissions.default.geo", 2);
+//Permissions - block new request - Camera
+user_pref("permissions.default.camera", 2);
+//Permissions - block new request - Microphone
+user_pref("permissions.default.microphone", 2);
+//Permissions - block new request - Notifications 
+user_pref("permissions.default.desktop-notification", 2);
