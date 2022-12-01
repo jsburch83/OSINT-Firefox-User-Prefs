@@ -36,3 +36,8 @@ user_pref("permissions.default.camera", 2);
 user_pref("permissions.default.microphone", 2);
 //Permissions - block new request - Notifications 
 user_pref("permissions.default.desktop-notification", 2);
+//Deceptive Content and Dangerous Software Protection
+user_pref("browser.safebrowsing.malware.enabled", false);
+user_pref("browser.safebrowsing.phishing.enabled", false);
+//HTTPS-only mode
+user_pref("dom.security.https_only_mode", true);
