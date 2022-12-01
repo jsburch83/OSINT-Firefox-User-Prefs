@@ -1,4 +1,5 @@
 //Add this user.js file to your firefox profile directory
+//Based on Michael Bazzell - Open Source Intelligence Techniques - 9th Edition 
 
 
 //Homepage set to Blank Page
@@ -75,3 +76,8 @@ user_pref("network.dns.disablePrefetch", true);
 //disables prefectching also
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
 user_pref("network.prefetch-next", false);
+user_pref("media.peerconnection.enabled", false);
+user_pref("media.peerconnection.turn.disable", true);
+user_pref("media.peerconnection.use_document_iceservers", false);
+user_pref("media.peerconnection.video.enabled", false);
+user_pref("media.navigator.enabled", false);
